@@ -233,14 +233,10 @@ body:before {
 
 .qr_text {
   position: relative;
-  width: 46%;
+  width: 38%;
   padding: 0 0 0 14px;
   display: var(--display);
   align-items: center;
-}
-
-.qr_text_content {
-  margin: 0 auto;
 }
 
 .apk_logo {
