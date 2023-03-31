@@ -193,8 +193,7 @@ body:before {
   left: 0;
   opacity: 0.6;
   background: url(../images/basemap.png);
-  background-size: auto;
-  background-position: center center;
+  background-size: 70%;
 }
 
 /* ---------------------------------------------------- */
@@ -275,11 +274,11 @@ body:before {
   .apk_title_content {
     display: var(--display);
     flex-direction: column-reverse;
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   .apk_title p {
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   .apk_qr {
@@ -377,7 +376,7 @@ body:before {
 
 @media screen and (max-width: 1423px) {
   .apl_teaching {
-    padding: 0 30px;
+    padding: 0 16px;
   }
 
   .apl_teaching_content {
@@ -385,6 +384,7 @@ body:before {
     border-top-right-radius: 120px;
     padding: 10px;
     border: 10px solid #404040;
+    border-bottom: 0px solid #404040;
   }
 
   .apl_teaching_content::before {
@@ -400,15 +400,16 @@ body:before {
   }
 
   .teaching_content {
-    padding: 80px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
   }
 }
 
 @media screen and (max-width: 1423px) {
   .apl_teaching_content {
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     padding: 10px;
     border: 10px solid #404040;
+    border-bottom: 0px solid #404040;
 }
 }
