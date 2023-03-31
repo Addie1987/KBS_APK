@@ -1,0 +1,403 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------------------------------------------------- */
+
+* p,
+li,
+h1,
+label,
+a {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.activity_one,
+.activity_two,
+.activity_three,
+.rule,
+.activity_four,
+.activity_five,
+.activity_six,
+.activity_seven {
+  padding-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+
+:root {
+  --max-width: 1365px;
+  --max-width_content: 680px;
+  --color_p: #fff;
+  --background-color: #f0cd4d;
+  --margin-left: auto;
+  --margin-right: auto;
+  --display: flex;
+  --justify-content: center;
+  --align-items: center;
+  --flex-wrap: wrap;
+  --font-size_h1: 26px;
+}
+
+/* ---------------------------------------------------- */
+body {
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+  background-color: var(--background-color);
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+    Segoe UI, Arial, Roboto, "PingFang SC", miui, "Hiragino Sans GB",
+    "Microsoft Yahei", sans-serif;
+}
+
+body:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  opacity: 0.6;
+  background: url(../images/basemap.png);
+  background-size: auto;
+  background-position: center center;
+}
+
+/* ---------------------------------------------------- */
+
+/* apk_title */
+.apk_title {
+  position: relative;
+  padding: 95px 0 0 0;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.apk_title_content {
+  display: var(--display);
+  justify-content: var(--justify-content);
+  flex-wrap: var(--flex-wrap);
+}
+
+.apk_title p {
+  text-align: center;
+  font-size: 2.6rem;
+  margin: 56px 0 86px 0;
+}
+
+.apk_qr {
+  position: relative;
+  margin: 0 14px 0 0;
+  width: 27%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.qr_text {
+  position: relative;
+  width: 46%;
+  padding: 0 0 0 14px;
+  display: var(--display);
+  align-items: center;
+}
+
+.qr_text_content {
+  margin: 0 auto;
+}
+
+.apk_logo {
+  position: relative;
+  margin: 0 0 22px 0;
+}
+
+.apk_logo_contnet {
+  margin: 0 auto;
+}
+
+.apk_logo_contnet img {
+  width: 70%;
+  height: auto;
+}
+
+.apk_download {
+  position: relative;
+}
+
+.apk_download_contnet {
+  margin: 0 auto;
+}
+
+.apk_download_contnet img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1423px) {
+  .apk_title_content {
+    display: var(--display);
+    flex-direction: column-reverse;
+    padding: 0 40px;
+  }
+
+  .apk_title p {
+    padding: 0 40px;
+  }
+
+  .apk_qr {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apk_logo_contnet {
+    text-align: center;
+  }
+
+  .qr_text {
+    width: 100%;
+    padding: 0 0 14px 0;
+  }
+}
+
+/* ---------------------------------------------------- */
+
+/* apl_teaching */
+.apl_teaching {
+  position: relative;
+}
+
+.apl_teaching_content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 200px 100px 100px 100px;
+  border: 40px solid #404040;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom: 0 solid #404040;
+  background-color: #fff;
+  box-shadow: 4px -4px 16px 7px #00000040;
+  position: relative;
+  display: var(--display);
+  justify-content: var(--justify-content);
+}
+
+.apl_teaching_content::before {
+  content: "";
+  width: 40%;
+  height: 10%;
+  background-color: #404040;
+  position: absolute;
+  top: -8px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.teaching {
+  position: relative;
+}
+
+.teaching_content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: var(--display);
+  justify-content: var(--justify-content);
+  flex-wrap: var(--flex-wrap);
+}
+
+/* apf_first */
+.apf_first {
+  position: relative;
+}
+
+.apf_firstcontent {
+  display: var(--display);
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--justify-content);
+}
+
+.apf_firstcontent img {
+  width: 50%;
+}
+
+/* apk_second */
+.apk_second {
+  position: relative;
+}
+
+.apk_second_content {
+  display: var(--display);
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--justify-content);
+}
+
+.apk_second_content img {
+  width: 50%;
+}
+
+@media screen and (max-width: 1423px) {
+  .apl_teaching {
+    padding: 0 30px;
+  }
+
+  .apl_teaching_content {
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    padding: 30px;
+  }
+
+  .apl_teaching_content::before {
+    height: 3%;
+  }
+
+  .apf_firstcontent img {
+    width: 100%;
+  }
+
+  .apk_second_content img {
+    width: 100%;
+  }
+
+  .teaching_content {
+    padding: 80px 20px 20px 20px;
+  }
+}
