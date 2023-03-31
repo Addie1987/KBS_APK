@@ -283,7 +283,8 @@ body:before {
   }
 
   .apk_qr {
-    width: 60%;
+    width: 80%;
+    height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -382,7 +383,8 @@ body:before {
   .apl_teaching_content {
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
-    padding: 30px;
+    padding: 10px;
+    border: 10px solid #404040;
   }
 
   .apl_teaching_content::before {
@@ -400,4 +402,13 @@ body:before {
   .teaching_content {
     padding: 80px 20px 20px 20px;
   }
+}
+
+@media screen and (max-width: 1423px) {
+  .apl_teaching_content {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    padding: 10px;
+    border: 10px solid #404040;
+}
 }
