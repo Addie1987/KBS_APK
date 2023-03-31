@@ -274,11 +274,11 @@ body:before {
   .apk_title_content {
     display: var(--display);
     flex-direction: column-reverse;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .apk_title p {
-    padding: 0 10px;
+    padding: 0 20px;
     padding: 0;
   }
 
@@ -377,7 +377,7 @@ body:before {
 
 @media screen and (max-width: 1423px) {
   .apl_teaching {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .apl_teaching_content {
