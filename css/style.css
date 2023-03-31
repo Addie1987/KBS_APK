@@ -278,7 +278,7 @@ body:before {
   }
 
   .apk_qr {
-    width: 80%;
+    width: 50%;
     height: auto;
     text-align: center;
     margin-left: auto;
@@ -292,6 +292,7 @@ body:before {
   .qr_text {
     width: 100%;
     padding: 0 0 14px 0;
+    justify-content: center;
   }
 }
 
