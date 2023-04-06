@@ -389,10 +389,6 @@ body:before {
 }
 
 @media screen and (max-width: 1423px) {
-  .apl_teaching {
-    padding: 0 38px;
-  }
-
   .apl_teaching_content {
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
