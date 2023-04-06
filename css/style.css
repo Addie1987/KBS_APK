@@ -191,7 +191,7 @@ body:before {
   position: absolute;
   top: 0px;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.3;
   background: url(../images/basemap.png);
   background-size: 70%;
 }
@@ -273,6 +273,20 @@ body:before {
     padding: 0 38px;
   }
 
+  .apk_logo_contnet img {
+    width: 50%;
+  }
+
+  .apk_download_contnet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apk_download_contnet img {
+    width: 70%;
+  } 
+
   .apk_title p {
     padding: 0 38px;
   }
@@ -344,6 +358,9 @@ body:before {
 /* apf_first */
 .apf_first {
   position: relative;
+  border-bottom: .5px solid #000;
+  border-style: dashed;
+  padding: 50px;
 }
 
 .apf_firstcontent {
