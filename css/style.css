@@ -288,7 +288,8 @@ body:before {
   } 
 
   .apk_title p {
-    padding: 0 38px;
+    padding: 0 20px;
+    margin: 30px 0;
   }
 
   .apk_qr {
@@ -393,12 +394,16 @@ body:before {
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
     padding: 10px;
-    border: 10px solid #404040;
+    border: 14px solid #404040;
     border-bottom: 0px solid #404040;
   }
 
   .apl_teaching_content::before {
     height: 3%;
+  }
+
+  .apf_first {
+    padding: 0 10px;
   }
 
   .apf_firstcontent img {
