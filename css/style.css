@@ -436,7 +436,7 @@ body:before {
 /* apl_teaching_buttoon */
 .apl_teaching_buttoon {
   position: relative;
-  padding: 80px 0;
+  padding: 0 0 80px 0;
 }
 
 .apl_teaching_buttoon_content {
