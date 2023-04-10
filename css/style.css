@@ -194,6 +194,7 @@ body:before {
   opacity: 0.3;
   background: url(../images/basemap.png);
   background-size: 70%;
+  z-index: -9999999999;
 }
 
 /* ---------------------------------------------------- */
@@ -285,7 +286,7 @@ body:before {
 
   .apk_download_contnet img {
     width: 70%;
-  } 
+  }
 
   .apk_title p {
     padding: 0 20px;
@@ -331,12 +332,13 @@ body:before {
   position: relative;
   display: var(--display);
   justify-content: var(--justify-content);
+  flex-wrap: var(--flex-wrap);
 }
 
 .apl_teaching_content::before {
   content: "";
   width: 40%;
-  height: 10%;
+  height: 1%;
   background-color: #404040;
   position: absolute;
   top: -8px;
@@ -346,6 +348,8 @@ body:before {
 
 .teaching {
   position: relative;
+  width: 100%;
+  padding-bottom: 60px;
 }
 
 .teaching_content {
@@ -359,7 +363,6 @@ body:before {
 /* apf_first */
 .apf_first {
   position: relative;
-  border-bottom: .5px solid #000;
   border-style: dashed;
   padding: 50px;
 }
@@ -399,7 +402,7 @@ body:before {
   }
 
   .apl_teaching_content::before {
-    height: 3%;
+    height: 60px;
   }
 
   .apf_first {
@@ -419,7 +422,7 @@ body:before {
   }
 
   .teaching_content {
-    padding: 30px 0px 20px 0px;
+    padding: 80px 0px 0px 0px;
   }
 }
 
@@ -430,5 +433,94 @@ body:before {
     padding: 10px;
     border: 10px solid #404040;
     border-bottom: 0px solid #404040;
+  }
+}
+
+
+/* apl_teaching_buttoon */
+.apl_teaching_buttoon {
+  position: relative;
+  padding: 80px 0;
+}
+
+.apl_teaching_buttoon_content {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.apl_teaching_buttoon_content ul {
+  padding: 0;
+  display: var(--display);
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--justify-content);
+}
+
+.apl_teaching_buttoon_content ul li {
+  margin: 40px;
+  display: var(--display);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+}
+
+.apl_teaching_buttoon_content ul li a {
+  color: var(--background-color);
+  font-size: 26px;
+  font-weight: 900;
+  padding: 20px 60px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 4px 4px 4px 1px #3b3b3bd9;
+}
+
+/* ios_teaching */
+.ios_teaching {
+  position: relative;
+  width: 100%;
+  border-top: 5px solid var(--background-color);
+  border-style: dotted;
+  padding: 60px 0;
+}
+
+.ios_teaching_content {
+  margin: 0 auto;
+}
+
+.ios_teaching_content ul {
+  padding: 0;
+  display: var(--display);
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--justify-content);
+}
+
+.ios_teaching_content ul li {
+  margin: 10px;
+  width: 45%;
+}
+
+.ios_teaching_content ul li img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1423px) {
+  .ios_teaching_content ul li {
+    width: 100%;
+    display: var(--display);
+    justify-content: var(--justify-content);
+  }
+
+  .apl_teaching_buttoon {
+    padding: 40px;
+  }
+
+  .apl_teaching_buttoon_content ul li {
+    margin: 20px;
+    text-align: center;
   }
 }
