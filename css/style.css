@@ -420,10 +420,6 @@ body:before {
   .apk_second_content img {
     width: 100%;
   }
-
-  .teaching_content {
-    padding: 80px 0px 0px 0px;
-  }
 }
 
 @media screen and (max-width: 1423px) {
@@ -478,13 +474,51 @@ body:before {
   box-shadow: 4px 4px 4px 1px #3b3b3bd9;
 }
 
+.android_title {
+  position: relative;
+  padding: 80px 0 80px 0;
+}
+.android_title_content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.android_title_content h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.iOS_title {
+  position: relative;
+  padding: 60px 0;
+}
+.iOS_title_content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.iOS_title_content h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1423px) {
+  .android_title {
+    padding: 80px 0 30px 0;
+  }
+
+  .iOS_title {
+    padding: 80px 0 30px 0;
+  }
+}
+
 /* ios_teaching */
 .ios_teaching {
   position: relative;
   width: 100%;
   border-top: 5px solid var(--background-color);
   border-style: dotted;
-  padding: 60px 0;
+  padding: 0 0 80px 0;
 }
 
 .ios_teaching_content {
