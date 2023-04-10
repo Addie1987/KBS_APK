@@ -478,6 +478,7 @@ body:before {
   position: relative;
   padding: 80px 0 80px 0;
 }
+
 .android_title_content {
   margin: 0 auto;
   text-align: center;
@@ -492,6 +493,7 @@ body:before {
   position: relative;
   padding: 60px 0;
 }
+
 .iOS_title_content {
   margin: 0 auto;
   text-align: center;
@@ -530,6 +532,7 @@ body:before {
   display: var(--display);
   flex-wrap: var(--flex-wrap);
   justify-content: var(--justify-content);
+  padding: 50px;
 }
 
 .ios_teaching_content ul li {
@@ -543,6 +546,10 @@ body:before {
 }
 
 @media screen and (max-width: 1423px) {
+  .ios_teaching_content ul {
+    padding: 0;
+  }
+
   .ios_teaching_content ul li {
     width: 100%;
     display: var(--display);
