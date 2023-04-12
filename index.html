@@ -66,11 +66,11 @@
     <!-- ------------------------------------------------------------------------------------------- -->
 
 
-    <div class="apl_teaching_buttoon" id="nav-serialscrolling">
+    <div class="apl_teaching_buttoon"">
         <div class="apl_teaching_buttoon_content">
-            <ul>
-                <li class="sub-link" data-serialscrolling="android"><a href="#">Android</a></li>
-                <li class="sub-link" data-serialscrolling="iOS"><a href="#">iOS</a></li>
+            <ul id="filter-controls">
+                <li><a data-tag="android" href="#">Android</a></li>
+                <li><a data-tag="iOS" href="#">iOS</a></li>
             </ul>
         </div>
     </div>
@@ -78,8 +78,8 @@
 
     <!-- apl_teaching -->
     <div class="apl_teaching">
-        <div class="apl_teaching_content" id="demo-header">
-            <div data-serialscrolling-target="android" class="teaching">
+        <div class="apl_teaching_content" id="myList">
+            <div class="teaching" data-category="android">
                 <div class="android_title">
                     <div class="android_title_content">
                         <h1>Android</h1>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div data-serialscrolling-target="iOS" class="ios_teaching">
+            <div class="ios_teaching" data-category="iOS">
                 <div class="iOS_title">
                     <div class="iOS_title_content">
                         <h1>iOS/iPhone</h1>
@@ -147,7 +147,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     <!-- apl_teaching -->
-    <script type="text/javascript" src="./js/jquery.serialscrolling.js"></script>
+    <script type="text/javascript" src="./js/ling-gallery-filter.js"></script>
     <script type="text/javascript" src="./js/apl_teaching.js"></script>
 
 

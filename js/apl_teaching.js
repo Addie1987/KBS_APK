@@ -1,4 +1,6 @@
-$(document).ready(function(){
-  // jquery.serialscrolling initialisation
-  $('[data-serialscrolling]').serialscrolling();
-});
+$(document).ready(function () {
+    $('#myList').lingGalleryFilter({
+      tagContainer: $('#filter-controls')
+    });
+  });
+  

@@ -193,7 +193,7 @@ body:before {
   left: 0;
   opacity: 0.3;
   background: url(../images/basemap.png);
-  background-size: 70%;
+  background-size: auto;
   z-index: -9999999999;
 }
 
@@ -338,7 +338,7 @@ body:before {
 .apl_teaching_content::before {
   content: "";
   width: 40%;
-  height: 1%;
+  height: 100px;
   background-color: #404040;
   position: absolute;
   top: -8px;
@@ -518,9 +518,6 @@ body:before {
 .ios_teaching {
   position: relative;
   width: 100%;
-  border-top: 5px solid var(--background-color);
-  border-style: dotted;
-  padding: 0 0 80px 0;
 }
 
 .ios_teaching_content {
