@@ -510,7 +510,7 @@ body:before {
   }
 
   .iOS_title {
-    padding: 80px 0 30px 0;
+    padding: 30px 0 30px 0;
   }
 }
 
@@ -547,7 +547,7 @@ body:before {
     padding: 0;
   }
 
-  s .ios_teaching_content ul li {
+  .ios_teaching_content ul li {
     width: 100%;
     display: var(--display);
     justify-content: var(--justify-content);
@@ -605,7 +605,7 @@ s
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 200px 100px 100px 100px;
-  border: 40px solid #404040;
+  border: 30px solid #404040;
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
   border-bottom: 0 solid #404040;
@@ -656,37 +656,13 @@ s
   position: relative;
 }
 
-.tab-nav li:nth-child(1) a::before {
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: 53px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background: url(../images/android.png) no-repeat;
-}
 
-.tab-nav li:nth-child(2) a {
-  position: relative;
-}
-
-.tab-nav li:nth-child(2) a::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 53px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background: url(../images/ios.png) no-repeat;
-}
 
 .tab-nav li a {
   color: var(--background-color);
   font-size: 26px;
   font-weight: 900;
-  padding: 20px 100px;
+  padding: 20px 50px;
   display: inline-block;
   text-decoration: none;
   background-color: #404040;
@@ -707,7 +683,7 @@ s
   color: #fff;
   font-size: 26px;
   font-weight: 900;
-  padding: 20px 100px;
+  padding: 20px 50px;
   display: inline-block;
   text-decoration: none;
   background-color: #404040;
@@ -733,7 +709,7 @@ s
   }
 
   .tab-nav {
-    padding: 80px 0;
+    padding: 100px 0 40px 0;
     text-align: center;
   }
 
