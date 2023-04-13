@@ -657,12 +657,11 @@ s
 }
 
 
-
 .tab-nav li a {
-  color: var(--background-color);
+  color: #fff;
   font-size: 26px;
   font-weight: 900;
-  padding: 20px 50px;
+  padding: 10px 50px;
   display: inline-block;
   text-decoration: none;
   background-color: #404040;
@@ -680,10 +679,10 @@ s
 }
 
 .tab-nav li.active a {
-  color: #fff;
+  color: var(--background-color);
   font-size: 26px;
   font-weight: 900;
-  padding: 20px 50px;
+  padding: 10px 50px;
   display: inline-block;
   text-decoration: none;
   background-color: #404040;
@@ -715,7 +714,7 @@ s
 
   .tab-nav li {
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
     margin-left: 10px;
     margin-right: 10px;
   }
