@@ -209,7 +209,6 @@ section h1 {
   width: 100%;
   font-size: 40px;
   font-weight: 400;
-  color: #FFF
 }
 
 section a {
@@ -1130,7 +1129,7 @@ s
 }
 
 .tab-group section {
-  opacity: 0;
+  display: none;
   height: 0;
   padding: 0 1em;
   overflow: hidden;
@@ -1138,7 +1137,7 @@ s
 }
 
 .tab-group section.active {
-  opacity: 1;
+  display: block;
   height: auto;
   overflow: visible;
 }

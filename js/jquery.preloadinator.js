@@ -13,7 +13,7 @@
           , n = this
           , r = (new Date).getTime();
         return a.fn.preloadinator.disableScroll = function() {
-            a("body").css("overflow", "hidden"),
+            a("body"),
             "function" == typeof o.afterDisableScroll && o.afterDisableScroll.call(this)
         }
         ,
