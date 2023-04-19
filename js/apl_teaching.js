@@ -1,5 +1,1 @@
-new SwitchMenu('#myMenu', ['#android', '#iOS', '#subpage3']);
-
-
-
-
+var tabs = new Tabby('[data-tabs]');

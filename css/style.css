@@ -850,6 +850,10 @@ section a:hover {
   margin: 0 auto;
 }
 
+.apk_download_contnet a {
+ text-align: center;
+}
+
 .apk_download_contnet img {
   width: 100%;
   height: auto;
@@ -1200,14 +1204,18 @@ section a:hover {
   justify-content: var(--justify-content);
 }
 
-.myMenu_content {
+.to_switch_title_content ul {
   display: var(--display);
   align-items: var(--align-items);
   flex-wrap: var(--flex-wrap);
   justify-content: var(--justify-content);
 }
 
-.to_switch_title_content #myMenu a {
+.to_switch_title_content ul li {
+  text-align: center;
+}
+
+.to_switch_title_content ul li a {
   color: var(--background-color);
   font-size: 26px;
   font-weight: 900;
@@ -1248,7 +1256,7 @@ section a:hover {
     border-top-right-radius: 50px;
   }
 
-  .to_switch_title_content #myMenu a {
+  .to_switch_title_content ul li a {
     width: 50%;
     text-align: center;
     margin: 16px 0;
@@ -1281,4 +1289,35 @@ section a:hover {
     margin-left: 10px;
     margin-right: 10px;
   }
+}
+
+
+
+
+
+
+.js-tabby .tabs-pane {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 14, /Users/cferdinandi/Sites/tabby/src/sass/components/_tabby.scss */
+.js-tabby .tabs-pane.active {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 23, /Users/cferdinandi/Sites/tabby/src/sass/components/_tabby.scss */
+.js-tabby .tabs-pane:focus {
+  outline: none;
 }
